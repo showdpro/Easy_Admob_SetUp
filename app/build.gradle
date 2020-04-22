@@ -1,14 +1,12 @@
+apply plugin: 'com.android.application'
 
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.fafara'
 
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        //applicationId "ng.somoye.easyadmob"
+        applicationId "ng.somoye.easyadmob"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
