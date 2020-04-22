@@ -1,4 +1,4 @@
-package ng.somoye.easyadmob;
+package ng.somoye.mylibrary.easyadmob;
 
 import androidx.appcompat.app.AppCompatActivity;
 

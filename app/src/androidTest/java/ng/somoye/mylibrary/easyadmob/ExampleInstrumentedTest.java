@@ -1,4 +1,4 @@
-package ng.somoye.easyadmob;
+package ng.somoye.mylibrary.easyadmob;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("ng.somoye.easyadmob", appContext.getPackageName());
+        assertEquals("ng.somoye.mylibrary.easyadmob", appContext.getPackageName());
     }
 }
