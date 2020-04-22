@@ -1,2 +1,3 @@
 rootProject.name='EasyAdmob'
 include ':app'
+include ':mylibrary'
