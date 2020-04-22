@@ -108,9 +108,9 @@ public class AdmobSetUp extends AppCompatActivity {
 
 
 
-            final AdRequest adRequest = new AdRequest.Builder()//.build();
-                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                    .build();
+            final AdRequest adRequest = new AdRequest.Builder().build();
+                    //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    //.build();
 
             mInterstitialAd.loadAd(adRequest);
 
