@@ -31,11 +31,9 @@ in the onCreate, use the below codes to call the Adview method
 Note banner id is defined in this lib as sample_banner_id
 
 
-Dont forget to implement below in AndroidManifest.xml
+Dont forget to implement in AndroidManifest.xml the Application ID from google
 
-<meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/app_id" />
+         
             
 <b>For Real Banner</b>
 
