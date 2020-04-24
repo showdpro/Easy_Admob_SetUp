@@ -24,7 +24,7 @@ You may define the Adview adview; however if you dont it will call the default a
 
 in the onCreate, use the below codes to call the Adview method
 
-<b>AdmobSetUp.AllViews.SetAd(mAdview);</b>
+<b>AdmobSetUp.AllAdview.SetAd(mAdview);</b>
 
 Note banner id is defined in this lib as sample_banner_id
 
