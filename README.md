@@ -2,7 +2,8 @@
 
 <b>Usage:</b>
 
-Required:
+<b>Required:</b>
+
  Project Build.gradle
  add 
  <b>classpath {url 'https://jetpack.io'}</b>
