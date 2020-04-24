@@ -7,7 +7,7 @@ Required:
  add 
  <b>classpath {url 'https://jetpack.io'}</b>
 
-in app Build.gradle (implement firebase ads)\n
+in app Build.gradle (implement firebase ads)
 <b>implementation 'com.github.fafara:Easy_Admob_SetUp:1.7.0'</b>
 
 
@@ -44,7 +44,8 @@ define the
 Interstitial mInterstitial;
 in your java class and attach it to all buttons in any activities in your app with the below codes.
 
-<b>AdmobSetUp.AllInterstitial.SetInterstitial(mInterstitial);</b>\n
+<b>AdmobSetUp.AllInterstitial.SetInterstitial(mInterstitial);</b>
+
 <b>AdmobSetUp.AllInterstitial.showInterstitial();</b>
 
 
