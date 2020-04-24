@@ -8,6 +8,7 @@ Required:
  <b>classpath {url 'https://jetpack.io'}</b>
 
 in app Build.gradle (implement firebase ads)
+
 <b>implementation 'com.github.fafara:Easy_Admob_SetUp:1.7.0'</b>
 
 
@@ -36,12 +37,15 @@ Dont forget to implement below in AndroidManifest.xml
             android:value="@string/app_id" />
             
 <b>For Real Banner</b>
+
 use the above test method but change the app_id to myapp_id to avoid conflicting ids
 and add all your real banner_id
 
-For Interstitial ads
+<b>For Interstitial ads</b>
+
 define the 
 Interstitial mInterstitial;
+
 in your java class and attach it to all buttons in any activities in your app with the below codes.
 
 <b>AdmobSetUp.AllInterstitial.SetInterstitial(mInterstitial);</b>
