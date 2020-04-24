@@ -51,5 +51,7 @@ in your java class and attach it to all buttons in any activities in your app wi
 
 <b>AdmobSetUp.AllInterstitial.showInterstitial();</b>
 
+Feel free to fork or apply this project in your project. You can also help contribut to this project in order to make it easy for ads implementation for other ad networks. Thanks
+
 
 [![](https://jitpack.io/v/fafara/Easy_Admob_SetUp.svg)](https://jitpack.io/#fafara/Easy_Admob_SetUp)
