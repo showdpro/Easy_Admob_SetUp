@@ -22,7 +22,7 @@ and in corresponding Java Class:
 
 <b>Import ng.somoye.mylibrary.AdmobSetUp;</b>
 
-You may define the Adview adview; however if you dont it will call the default adview and app_id from this library.
+You may define the Adview mAdview; however if you dont it will call the default adview and app_id from this library.
 
 in the onCreate, use the below codes to call the Adview method
 
