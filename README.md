@@ -39,5 +39,13 @@ Dont forget to implement below in AndroidManifest.xml
 use the above test method but change the app_id to myapp_id to avoid conflicting ids
 and add all your real banner_id
 
+For Interstitial ads
+define the 
+Interstitial mInterstitial;
+in your java class and attach it to all buttons in any activities in your app with the below codes.
+
+<b>AdmobSetUp.AllInterstitial.SetInterstitial(mInterstitial);</b>
+<b>AdmobSetUp.AllInterstitial.showInterstitial();</b>
+
 
 [![](https://jitpack.io/v/fafara/Easy_Admob_SetUp.svg)](https://jitpack.io/#fafara/Easy_Admob_SetUp)
